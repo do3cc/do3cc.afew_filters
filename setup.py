@@ -14,7 +14,7 @@ setup(
     open('CHANGES.md').read(),
     entry_points={
         'afew.filter': [
-            'SaveMailAttachments = do3cc.afew_filters.mail_attachments:SaveAttachmentsFilter']
+            'SaveAttachmentsFilter = do3cc.afew_filters.mail_attachments:SaveAttachmentsFilter']
     },
     license='BSD',
     install_requires=[
