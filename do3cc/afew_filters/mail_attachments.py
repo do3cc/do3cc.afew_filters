@@ -9,7 +9,7 @@ from tempfile import NamedTemporaryFile
 from afew.filters import BaseFilter
 
 
-class SaveAttachmentsFilter(BaseFilter):
+class SaveAttachmentsFilter(BaseFilter.Filter):
     message = 'Saving attachments'
     query = 'tag:save_attachments'
     folder = "attachments"
