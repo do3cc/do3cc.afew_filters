@@ -19,6 +19,7 @@ setup(
     license='BSD',
     install_requires=[
         'afew',
+        'requests',
         'easywebdav',
     ],
 )
