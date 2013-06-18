@@ -46,5 +46,5 @@ class SaveAttachmentsFilter(BaseFilter.Filter):
             with NamedTemporaryFile() as tmpfile:
                 tmpfile.write(body)
                 tmpfile.flush()
-                self.dav.upload(tmpfile.name, remote_path)
+                self.client.upload(tmpfile.name, remote_path)
                 self.remove_tags(message, 'unread', 'save_attachments')
