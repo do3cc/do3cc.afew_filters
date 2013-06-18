@@ -19,7 +19,6 @@ setup(
     license='BSD',
     install_requires=[
         'afew',
-        'subprocess32',
-        'chardet',
+        'easywebdav',
     ],
 )
